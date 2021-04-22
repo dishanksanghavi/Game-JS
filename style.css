@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
 *{
     margin:0;
     padding:0;
@@ -80,15 +81,16 @@ header > h1{
     font-family: 'Zen Dots', cursive;
     margin-top: 20px;
 }
-.green-glow{
-    box-shadow: 0 5px 10px 0 green !important;
-    border: 5px solid green !important;
+.green_glow {
+    border: 5px solid rgb(7, 245, 7);
+    box-shadow: 0 5px 10px 0 rgb(7, 245, 7) !important;
 }
-.red-glow{
-    box-shadow: 0 5px 10px 0 red !important;
-    border: 5px solid red !important;
+.red_glow {
+    border: 5px solid red;
+    box-shadow: 0 5px 10px 0 rgb(245, 0, 0) !important;
 }
-.grey-glow{
-    box-shadow: 0 5px 10px 0 grey !important;
-    border: 5px solid grey !important;
+.grey_glow {
+    border: 5px solid grey;
+    box-shadow: 0 5px 10px 0 rgb(128, 128, 128) !important;
 }
+
