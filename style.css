@@ -1,21 +1,24 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
+    font-family: 'Zen Dots', cursive;
 }
 body{
-    background-color:#24272E;
+    background-color:#120070;
+    font-family: 'Zen Dots', cursive;
 }
 header{
-    background: white;
+    background: #123970;
     padding:20px;
 }
 header > h1{
     text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size:50px;
+    font-family: 'Zen Dots', cursive;
+    font-size:45px;
+    color: yellow;
 }
 .score-board{
     border:5px solid white;
@@ -24,17 +27,17 @@ header > h1{
     text-align: center;
     width:200px;
     color:white;
-    font-size:45px;
+    font-size:40px;
     padding: 10px 20px;
-    font-family: 'Robot', sans-serif;
+    font-family: 'Zen Dots', cursive;
     position: relative;
 }
 .badge{
     background:red;
     color:white;
-    font-size:15px;
+    font-size:10px;
     padding: 2px 5px;
-    font-family: 'Robot', sans-serif;
+    font-family: 'Zen Dots', cursive;
     border-radius: 8px;
 }
 #user-lable{
@@ -46,4 +49,46 @@ header > h1{
     position: absolute;
     top:25px;
     right:-25px;
+}
+.result{
+    text-align: center;
+    color: white;
+    font-size:40px;
+    font-family: 'Zen Dots', cursive;
+}
+.choices{
+    text-align: center;
+    margin: 20px 0px;
+}
+.choice{
+    border: 2px solid white ;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 0px 20px;
+    transition: all 0.4s ease;
+}
+.choice:hover{
+    box-shadow: 0 5px 10px 0 rgb(250, 246, 246);
+    cursor: pointer;
+}
+
+#action-message{
+    text-align: center;
+    color: white;
+    font-size:40px;
+    font-family: 'Zen Dots', cursive;
+    margin-top: 20px;
+}
+.green-glow{
+    box-shadow: 0 5px 10px 0 green !important;
+    border: 5px solid green !important;
+}
+.red-glow{
+    box-shadow: 0 5px 10px 0 red !important;
+    border: 5px solid red !important;
+}
+.grey-glow{
+    box-shadow: 0 5px 10px 0 grey !important;
+    border: 5px solid grey !important;
 }
